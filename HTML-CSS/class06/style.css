@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap');
+
+@font-face {
+    font-family: "Roboto";
+    src: url("assets/fonts/Roboto/Roboto-Medium.ttf");
+}
+
+*{
+    text-align: center;
+    color: tomato;
+}
+body{
+    font-family: "Doto", monospace;
+}
+
+p {
+    font-family: Roboto, Arial, sans-serif;
+}
+
+.oblique-font{
+    font-style: oblique;
+    font-size: 200%;
+}
+
+.italic-font{
+    font-style: italic;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.size{
+    font-size: 16px;
+}
+
+.text-decoration{
+    text-decoration: line-through solid red;
+    line-height: normal;
+    text-align: center;
+}
+
+.text-shadow{
+    text-shadow: 3px 3px 15px red;
+}
