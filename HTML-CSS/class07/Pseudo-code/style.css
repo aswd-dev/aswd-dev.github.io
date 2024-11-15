@@ -1,0 +1,29 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: green;
+    text-decoration: none;
+    transition: color 1s;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: blue;
+}
+
+a:focus{
+outline: 2px solid red;
+}
+
+a:active {
+    color: red;
+}
+
