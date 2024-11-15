@@ -7,10 +7,11 @@
 
 *{
     text-align: center;
-    color: tomato;
+    color: black;
 }
 body{
     font-family: "Doto", monospace;
+    background-color: darkgrey;
 }
 
 p {
@@ -33,11 +34,11 @@ p {
 }
 
 .text-decoration{
-    text-decoration: line-through solid red;
+    text-decoration: line-through solid black;
     line-height: normal;
     text-align: center;
 }
 
 .text-shadow{
-    text-shadow: 3px 3px 15px red;
+    text-shadow: 3px 3px 15px black;
 }
