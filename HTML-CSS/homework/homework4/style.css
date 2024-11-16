@@ -1,6 +1,9 @@
 *{
     background-color: rgb(199, 124, 124);
 }
+body{
+    color: white;
+}
 h1{
     text-align: center;
 }
