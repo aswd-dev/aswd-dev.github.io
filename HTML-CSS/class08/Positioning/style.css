@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #0b98de;
+    width: 100vw;
+    height: 5vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+main{
+    position: relative;
+    top: 5vh;
+    left: 0;
+}
+
+.position-static {
+    position: static;
+    top: 0;
+    left: 0;
+}
+
+.position-absolute{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(200, 108, 108);
+    width: 500px;
+}
+
+.position-sticky{
+    position: sticky;
+    top: 20px;
+    background-color: yellow;
+}
+
+.back-to-top{
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(111, 164, 174);
+    cursor: crosshair;
+    padding: 10px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: greenyellow;
+    transition: 1s;
+}

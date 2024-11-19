@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+}
+
+.back{
+    width: 500px;
+    height: 500px;
+    border: solid black;
+    margin:15px auto;
+}
+
+.first{
+    width: 30%;
+    height: 25%;
+    border: 5px solid gray;
+    background-color: white;
+    float: left;
+}
+
+.second{
+    width: 30%;
+    height: 40%;
+    border: 5px solid gray;
+    background-color: white;
+    float: left;
+}
+
+.third {
+    width: 30%;
+    height: 33%;
+    border: 5px solid gray;
+    background-color: rgb(57, 209, 220);
+    float: left;
+}
+
+.fourth {
+    width: 70%;
+    height: 65%;
+    border: 5px solid gray;
+    background-color: red;
+    float: right;
+}
+
+.fifth {
+    width:61%;
+    height: 33%;
+    background-color: white;
+    border: 5px solid gray;
+    float: left;
+} 
+
+.sixth {
+    width: 9%;
+    height: 16.5%;
+    border: 5px solid gray;
+    background-color:  yellow;
+    float: right;
+}
+
+.seventh{
+    width: 9%;
+    height: 16.5%;
+    border: 5px solid gray;
+    background-color: white;
+    float: right;
+}

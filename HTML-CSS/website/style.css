@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -8,6 +14,7 @@ nav {
     height: 46px;
     background-color: #0b98de;
     overflow: hidden;
+    position: fixed;
 }
 
 nav a {
