@@ -175,7 +175,7 @@ body {
 
 footer {
     background: #343434;
-    padding-top: 2rem;
+    padding-top: 4rem;
 }
 
 .container {
@@ -194,27 +194,32 @@ h3 {
 
 .contact p {
     font-size: 2rem;
+    margin-top: 2rem;
 }
 
 .links {
-    margin-left: 17rem;
+    margin-left: 12rem;
 }
 
 .links a{
     margin-top: 2rem;
     text-decoration: none;
     color: white;
-    font-size: 2rem;
+    font-size: 1.5rem;
+}
+
+.one {
+    margin-top: 2rem;
 }
 
 .social-media {
-    margin-left: 30rem;
+    margin-left: 27rem;
 }
 
 .social-media a {
     text-decoration: none;
     color: white;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .bottom-bar {
