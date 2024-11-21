@@ -4,11 +4,13 @@
     padding: 0;
 }
 
+
 .back {
     width: 600px;
     height: 600px;
     background-color: black;
     margin: 15px auto;
+    box-shadow: 0 0 2px 2px rgb(236, 224, 224)
 }
 
 .one {
