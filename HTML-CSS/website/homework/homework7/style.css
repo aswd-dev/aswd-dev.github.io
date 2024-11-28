@@ -10,25 +10,31 @@ body {
     
 }
 
-.back {
+.center{
     width: 500px;
     height: 500px;
     background-color: gray;
     margin: 15px auto;
     border: solid 2px black;
     display: flex;
+}
+
+.back {
+    display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.last{
+    display: flex;
     flex-direction: column;
     justify-content: flex-end;
 }
-
 
 .one {
     width: 150px;
     height: 160px;
     background-color: orange;
-    
-
 }
 
 .two {
@@ -42,38 +48,29 @@ body {
     width: 150px;
     height: 166px;
     background-color: rgb(66, 179, 141);
-   
 }
 
 .four {
     width: 346px;
     height: 330px;
     background-color: tomato;
-  
-
 }
 
 .five {
     width: 300px;
     height: 166px;
     background-color: green;
-    
 }
 
 .six {
     width: 45px;
     height: 83px;
     background-color: white;
-    position: relative;
-    right: 9%;
-    
 }
 
 .seven {
     width: 45px;
     height: 83px;
     background-color: rgb(170, 182, 64);
-    position: relative;
-    right: 9%;
 }
 
