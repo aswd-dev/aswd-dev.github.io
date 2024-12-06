@@ -20,7 +20,7 @@ let numString = "5";
 console.log(num > numString);
 console.log(num < numString);
 console.log(num == numString);
-console.log(num === numString);
+console.log(num === numString); // edhe vleren e kontrolon edhe tipin (number ose string) nese sjan njejt eshte false
 
 
 let result = a % b;
@@ -54,8 +54,8 @@ console.log(circle);
 
 let phones = 30;
 let price = 119.95;
-let tax = 1.05;
+let tax = (price * 5) / 100;
 
-let total = phones * price * tax;
+let total = phones * (price + tax);
 console.log(total);
 

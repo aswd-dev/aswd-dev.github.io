@@ -24,12 +24,12 @@ console.log(anotherSentence);
 
 ### Truth table
 
-| X | Y | && | \|\| | !X |
-|---|---|----|----|----|
-| T | T | T | T | F |
-| T | F | F | T | F |
-| F | T | F | T | T |
-| F | F | F | F | T |
+| X | Y | && |  || | !X |
+|---|---|----|-----|----|
+| T | T | T  |  T  | F  |
+| T | F | F  |  T  | F  |
+| F | T | F  |  T  | T  |
+| F | F | F  |  F  | T  |
 
 ```js
 // Logical operators always result in a boolean value

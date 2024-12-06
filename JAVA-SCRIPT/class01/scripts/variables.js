@@ -64,3 +64,6 @@ console.log(newLine);
 
 let nullableVariable = null;
 console.log(nullableVariable);
+
+let result = 5 - 1 * ( 2 * 5 ) / 6;
+console.log(result);
