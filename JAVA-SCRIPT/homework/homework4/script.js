@@ -38,5 +38,5 @@ else if(formula == 11){
     console.log("Your zodiac sign is Pig");   
 }
 else{
-    console("Enter a valid number!");
+    console.log("Enter a valid number!");
 }
