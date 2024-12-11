@@ -12,7 +12,9 @@ function atm(balance, withdraw)
     {
         return "Please insert a valid number!";
     }
-
+    else {
+        return "Error";
+    }
 }
 
 let withdraw = parseInt(prompt("Please insert the amount you want to withdraw: "));
