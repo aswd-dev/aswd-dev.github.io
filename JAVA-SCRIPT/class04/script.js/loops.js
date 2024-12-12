@@ -24,7 +24,7 @@ let b = 1;
 let c = 1;
 
 console.log("===== Using while() =====");
-while(b < 5){
+while(b <= 6){
     console.log("Hello" + b);
     b++;
 } 
@@ -44,7 +44,6 @@ let end = 150;
 let squareSum = 0;
 
 while(start <= end){
-//  squareSum += Math.pow(start, 2);
     squareSum = squareSum + Math.pow(start, 2);
     start ++;
 }
