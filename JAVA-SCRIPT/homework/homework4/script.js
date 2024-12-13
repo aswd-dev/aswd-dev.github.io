@@ -1,4 +1,4 @@
-let year = prompt("Write BirthYear:");
+let year = parseInt(prompt("Write BirthYear:"));
 let formula = (year - 4) % 12;
 
 if(formula == 0){

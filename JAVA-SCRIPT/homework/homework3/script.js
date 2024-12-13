@@ -3,6 +3,6 @@ function calculateAge(birthyYear, curentYear = 2024){
     return year;
 }
 
-let check = prompt ("Enter Birth Year");
+let check = parseInt(prompt("Enter Birth Year"));
 
 console.log(`You are ${calculateAge(check)} years old`);

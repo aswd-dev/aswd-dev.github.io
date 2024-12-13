@@ -3,7 +3,7 @@ function dogYears(userInput){
     return check ;
 }
 
-let year = prompt ("Enter the years of the dog:");
+let year = parseInt(prompt("Enter the years of the dog:"));
 
 
 console.log (`The dog is ${dogYears(year)} human years old`);
