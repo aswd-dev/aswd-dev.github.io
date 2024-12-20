@@ -29,3 +29,22 @@ console.log(num > numString); // false
 console.log(num < numString); // false
 console.log(num == numString); // true
 console.log(num === numString); // false // edhe vleren e kontrolon edhe tipin (number ose string) nese sjan njejt eshte false
+
+
+/**************************************************/
+
+
+let radius = 10;
+let pi = 3.14;
+let circle = pi * radius * radius ;
+
+console.log(circle);
+
+/**************************************************/
+
+let phones = 30;
+let price = 119.95;
+let tax = (price * 5) / 100;
+
+let total = phones * (price + tax);
+console.log(total);

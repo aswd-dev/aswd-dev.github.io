@@ -39,7 +39,7 @@ console.log(true && false); // Will show false
 let result = (2 > 5) || (7 == 7) // Will execute the logical expression and store true in the variable
 console.log(result)
 ```
-
+.
 ## Control Structures
 
 ### If without else
