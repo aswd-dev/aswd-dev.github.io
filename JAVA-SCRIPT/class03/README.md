@@ -34,7 +34,7 @@ switch(number) {
 
 // Switch with combined statements
 let pet = prompt("What kinda pet do you want to have?")
-switch(number) {
+switch(pet) {
     case "dog":
     case "puppy":
         console.log("Dogs are very friendly.");
@@ -109,7 +109,7 @@ function getGreeting(name){
 
 console.log(getGreeting("Bob"));
 
-// Function with another function in it caleld
+// Function with another function in it called
 function isNameShort(name){
     if(name.length < 2){
         return true;
