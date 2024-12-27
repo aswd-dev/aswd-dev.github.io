@@ -32,7 +32,6 @@ let isCold = true;
 let notDefined = undefined;
 let notANumber = NaN;
 let nullValue = null;
-let book = {};
 let arr = [1, 2, 3];
 
 console.log(number);
@@ -91,7 +90,7 @@ console.log(notANumber);
 // function closerToHundred(firstNum, secondNum) {
 //     let controlValue = 100;
 //     if (firstNum < 0 || secondNum < 0) {
-//         console.log('Cannot insert a negtive number! Try again!')
+//         console.log('Cannot insert a negative number! Try again!')
 //     }
 //     else {
 //         let firstDiff = Math.abs(controlValue - firstNum);

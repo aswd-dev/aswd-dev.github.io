@@ -99,7 +99,7 @@ alert("Great, you found the X.");
 let names = ["Bob", "Jill", "Greg"];
 let i = 0;
 
-while(i < names.length){
+while(i <= names.length){
     console.log(names[i]);
     i++;
 }
@@ -108,7 +108,7 @@ while(i < names.length){
 let name = "Bob Bobsky";
 let i = 0;
 
-while(i < name.length){
+while(i <= name.length){
     console.log(name[i]);
     i++;
 }
