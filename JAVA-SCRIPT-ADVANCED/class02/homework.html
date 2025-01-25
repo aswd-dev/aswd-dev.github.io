@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generate Unordered List</title>
+</head>
+<body>
+    <h1>Generate Unordered List</h1>
+    
+    <label for="color">Color:</label>
+    <input type="text" id="color" placeholder="Enter a color (e.g., red)">
+    <br><br>
+
+    <label for="fontSize">Font Size:</label>
+    <input type="text" id="fontSize" placeholder="Enter font size">
+    <br><br>
+
+    <label for="items">Items:</label>
+    <input type="text" id="items" placeholder="Enter items, separated by commas">
+    <br><br>
+
+    <button id="generateButton">Generate List</button>
+
+    <div id="listContainer" style="margin-top: 20px;"></div>
+
+    <script>
+        document.getElementById('generateButton').addEventListener('click', function() {
+            // Get input values
+            const color = document.getElementById('color').value;
+            const fontSize = document.getElementById('fontSize').value;
+            const items = document.getElementById('items').value.split(',');
+
+            // Create a new unordered list (ul) element
+            const ul = document.createElement('ul');
+            ul.style.color = color;
+            ul.style.fontSize = fontSize;
+
+            // Add list items (li) to the ul element
+            items.forEach(item => {
+                const li = document.createElement('li');
+                li.textContent = item.trim();
+                ul.appendChild(li);
+            });
+
+            // Append the ul to the list container
+            const listContainer = document.getElementById('listContainer');
+            listContainer.innerHTML = ''; // Clear any existing content
+            listContainer.appendChild(ul);
+        });
+    </script>
+</body>
+</html>
